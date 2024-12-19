@@ -1,0 +1,142 @@
+.a4-page {
+    width: 827px;   /* Approximate A4 width in pixels */
+    height: 1100px; /* Approximate A4 height in pixels */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000; /* Increased border visibility */
+    background-color: rgb(250, 253, 241);
+    font-family: Arial, sans-serif;
+}
+
+#name {
+    color: rgba(19, 230, 47, 0.527);
+}
+
+p {
+    text-align: justify;
+    font-size: 12px; 
+}
+
+#Educational{
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    background-color: #f1f1f1;
+}
+#Employment{
+    font-size: 14px;
+}
+
+table {
+    width: 100%; /* Set to 100% for full-width usage */
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #000; /* Increased border width */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #2f0ad667;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+th, td {
+    font-size: 11px;
+}
+
+#Image_dipta {
+    float: right;
+    margin:10px 10px;  
+    border-radius: 50%; /* Changed to percentage for better circular shape */
+    height: 130px;
+    width: 130px; /* Kept consistent width */
+    max-width: 100%; /* Ensures image doesn't overflow */
+}
+
+.Container{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    gap: 5px;
+    background-color: hsla(30, 3%, 40%, 0.342);
+    font-size:12px;
+    height: 40px;
+    width: 95%;
+    text-align: justify;
+    border-style:ridge;
+
+    
+       
+}
+
+.section-01{
+    background-color: #030846;
+    padding: 5px;
+    border:solid rgb(206, 9, 9);
+    border-radius: 10%;
+    color: #af0707;
+   
+}
+.section-02{
+    background-color: #030846;
+    padding: 5px;
+    border:solid rgb(206, 9, 9);
+    border-radius: 10%;
+    color: #af0707;
+}
+
+.section-03{
+    background-color: #030846;
+    padding: 5px;
+    border:solid rgb(206, 9, 9);
+    border-radius: 10%;
+    color: #ece3e3;
+    
+}
+ 
+.section-04{
+    background-color: #030846;
+    padding: 5px;
+    border:solid rgb(206, 9, 9);
+    border-radius: 10%;
+    color: #ece3e3;
+    
+}
+    .setion-05{
+
+        background-color: #030846;
+        padding: 5px;
+        border:solid rgb(206, 9, 9);
+        border-radius: 10%;
+        color: #ece3e3;}
+
+        button{
+            background-color: #ee4419;
+            height: 25px;
+           font-size: 12px;        }
+
+
+    button:hover {
+        background-color:#19191a; /* Change on hover */
+        color: #d80734;
+    }
+    #suggestion{
+        font-size: 12px;
+        text-align: center;
+        color:rgb(235, 14, 43);
+        height: 18px;
+        width: 300px;      
+        background-color: #f3f5ec;
+    }
+
+
+
+
